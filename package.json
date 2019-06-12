@@ -1,7 +1,7 @@
 {
   "name": "@mobizerg/nest-ioredis",
   "description": "A Ioredis integration module for nestjs framework",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Mobizerg",
   "license": "MIT",
   "main": "index.js",
@@ -27,18 +27,18 @@
     "prettier": "^1.18.2",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.3",
-    "rxjs": "6.5.2",
+    "rxjs": "^6.5.2",
     "typescript": "^3.4.5",
     "ts-node": "^8.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
-    "ioredis": "^4.10.0"
+    "ioredis": "^4.10.0",
+    "lodash": "^4.17.11"
   },
   "peerDependencies": {
     "@nestjs/common": "^6.0.0",
     "reflect-metadata": "^0.1.12",
-    "rxjs": "6.0.0"
+    "rxjs": "^6.0.0"
   },
   "lint-staged": {
     "*.ts": [
