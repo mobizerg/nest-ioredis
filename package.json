@@ -1,7 +1,7 @@
 {
   "name": "@mobizerg/nest-ioredis",
   "description": "A Ioredis integration module for nestjs framework",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Mobizerg",
   "license": "MIT",
   "main": "index.js",
@@ -19,29 +19,26 @@
     "publish:npm": "npm publish --access public"
   },
   "devDependencies": {
-    "@nestjs/common": "6.1.1",
-    "@types/lodash": "^4.14.130",
-    "@types/ioredis": "^4.0.10",
-    "husky": "^2.3.0",
-    "lint-staged": "8.1.7",
-    "prettier": "^1.17.1",
-    "reflect-metadata": "^0.1.12",
-    "rxjs": "6.5.2",
-    "rxjs-compat": "6.5.2",
-    "lodash": "^4.17.11",
+    "@nestjs/common": "^6.3.1",
+    "@types/lodash": "^4.14.134",
+    "@types/ioredis": "^4.0.12",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.0",
+    "prettier": "^1.18.2",
+    "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.3",
+    "rxjs": "6.5.2",
     "typescript": "^3.4.5",
-    "ts-node": "^8.1.0",
-    "ioredis": "^4.9.5"
+    "ts-node": "^8.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "ioredis": "^4.9.5"
+    "ioredis": "^4.10.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^6.0.0",
     "reflect-metadata": "^0.1.12",
-    "rxjs": "^6.0.0"
+    "rxjs": "6.0.0"
   },
   "lint-staged": {
     "*.ts": [
